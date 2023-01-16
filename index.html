@@ -29,7 +29,7 @@
     <!-- Template Main CSS File -->
     
     <link href="css/style.css" rel="stylesheet">
-  
+
   </head>
   <body>
 
@@ -681,32 +681,29 @@
   
             <div class="col-lg-8 mt-5 mt-lg-0">
   
-              <form action="https://formsubmit.co/b2a8090e6f4f938c659a408cec74b4a9" method="POST" role="form" class="php-email-form">
+              <form target="_blank" action="https://formsubmit.co/m.cisternab2022@gmail.com" method="POST">
                 <div class="row">
-                  <div class="col-md-6 form-group">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Tu Nombre" required>
+                  <div class="form-group">
+                    <div class="form-row">
+                      <div class="col">
+                        <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                      </div>
+                      <div class="col">
+                        <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                      </div>
+                    </div>
                   </div>
-                  <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Tu Correo" required>
-                  </div>
                 </div>
-                <div class="form-group mt-3">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
+                <div class="form-group">
+                  <textarea placeholder="Your Message" class="form-control" name="message" rows="5" required></textarea>
                 </div>
-                <div class="form-group mt-3">
-                  <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
-                </div>
-                <div class="my-3">
-                  <div class="loading">Enviando</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Tú mensaje ha sido enviado. ¡Muchas Gracias!</div>
-                </div>
-                <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
 
-                <input type="hidden" name="_next" value="https://marcos-cisterna.onrender.com">
+                <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+                
                 <input type="hidden" name="_captcha" value="false">
+
               </form>
-  
+              
             </div>
   
           </div>
@@ -757,11 +754,11 @@
     <script src="vendor/swiper/swiper-bundle.min.js"></script>
     <script src="vendor/typed.js/typed.min.js"></script>
     <script src="vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="vendor/php-email-form/validate.js"></script>
   
     <!-- Template Main JS File -->
     <script src="js/main.js"></script>
     <script src="js/checkbox.js"></script>
+
   
   </body>
 </html>
