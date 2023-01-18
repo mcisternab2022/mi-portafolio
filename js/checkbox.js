@@ -19,9 +19,8 @@ var services = document.getElementById('services')
 var contact = document.getElementById('contact')
 var header = document.getElementById('header')
 var ascensor = document.getElementById('ascensor')
-var info = document.getElementById('info')
-var circle = document.getElementById('circle')
-var curriculum = document.getElementById('curriculum')
+var link = document.getElementById('link')
+var icono = document.getElementById('icono')
 
 toggle.onclick = function(){
     toggle.classList.toggle('active');
@@ -44,8 +43,7 @@ toggle.onclick = function(){
     services.classList.toggle('active');
     contact.classList.toggle('active');
     ascensor.classList.toggle('active');
-    info.classList.toggle('active');
-    curriculum.classList.toggle('active');
-    circle.classList.toggle('active');
+    link.classList.toggle('active');
+    icono.classList.toggle('active');
 
 }

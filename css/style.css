@@ -34,15 +34,8 @@ a:hover {
   text-decoration: none;
 }
 
-#curriculum.active,
-#curriculum.active .fa-solid {
-  color: #d6ed06;
-  text-decoration: none;
-}
-
-#curriculum.active:hover {
-  color: #abbb18;
-  text-decoration: none;
+#link.active a, #icono.active {
+  color: #eaf616;
 }
 
 h1,
@@ -188,6 +181,15 @@ h6 {
     left: -300px;
   }
 
+  #titulo {
+    margin-top: 16rem;
+    padding-top: 30px;
+
+  }
+  
+  #escritorio {
+    margin-top: 30px;
+  }
 
 }
 
@@ -195,6 +197,11 @@ h6 {
   #main {
     margin-left: 100px;
   }
+
+  #escritorio {
+    display: none;
+  }
+
 }
 
 /*--------------------------------------------------------------
@@ -370,7 +377,7 @@ h6 {
     background: #ffffff;
   }
   #hero.active {
-    background: #000000;
+    background: #272829;
   }
   .wrapper {
     padding-left: 65%;
