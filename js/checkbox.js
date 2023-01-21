@@ -15,6 +15,7 @@ var about = document.getElementById('about')
 var navbar = document.getElementById('navbar')
 var social = document.getElementById('social')
 var portfolio = document.getElementById('portfolio')
+var skills = document.getElementById('skills')
 var services = document.getElementById('services')
 var contact = document.getElementById('contact')
 var header = document.getElementById('header')
@@ -39,6 +40,7 @@ toggle.onclick = function(){
     about.classList.toggle('active');
     navbar.classList.toggle('active');
     social.classList.toggle('active');
+    skills.classList.toggle('active');
     portfolio.classList.toggle('active');
     services.classList.toggle('active');
     contact.classList.toggle('active');

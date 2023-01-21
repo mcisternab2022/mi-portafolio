@@ -180,12 +180,6 @@ h6 {
     border-right: 1px solid #c6c6c6;
     left: -300px;
   }
-
-  #titulo {
-    margin-top: 16rem;
-    padding-top: 30px;
-
-  }
   
   #escritorio {
     margin-top: 30px;
@@ -374,13 +368,11 @@ h6 {
 
 @media screen and (max-width: 1350px) {
   #hero {
+    padding: 400px 30px;
     background: #ffffff;
   }
   #hero.active {
     background: #272829;
-  }
-  .wrapper {
-    padding-left: 65%;
   }
 }
 
@@ -505,8 +497,6 @@ section {
     overflow: hidden;
   }
 }
-
-
 
 .section-title {
   text-align: center;
@@ -658,6 +648,16 @@ p#skillsicons img:hover{
   transform: rotate(360deg);
   }
 
+#skills.active h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #eaf616;
+  bottom: 0;
+  left: calc(50% - 20px);
+  }
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -1447,17 +1447,14 @@ p#skillsicons img:hover{
 --------------------------------------------------------------*/
 
 .wrapper {
-  position: absolute;
-  top: 15%;
-  left: 19%;
-  transform: translate(-50%, -50%);
-  height: 20px;
+  padding-bottom: 40px;
 }
 
 #hide-checkbox {
   opacity: 0;
   height: 0;
   width: 0;
+
 }
 
 .toggle {
