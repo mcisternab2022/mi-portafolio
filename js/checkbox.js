@@ -22,12 +22,16 @@ var header = document.getElementById('header')
 var ascensor = document.getElementById('ascensor')
 var link = document.getElementById('link')
 var icono = document.getElementById('icono')
+var profile = document.getElementById('profile')
+var typedcursor = document.getElementById('profesion')
 
 toggle.onclick = function(){
     toggle.classList.toggle('active');
     body.classList.toggle('active');
     p.classList.toggle('active');
-    a.classList.toggle('active');
+    if (!a.classList.contains('active')) {
+        a.classList.add('active');
+    }
     h1.classList.toggle('active');
     h2.classList.toggle('active');
     h3.classList.toggle('active');
@@ -47,6 +51,8 @@ toggle.onclick = function(){
     ascensor.classList.toggle('active');
     link.classList.toggle('active');
     icono.classList.toggle('active');
+    profile.classList.toggle('active');
+    typedcursor.classList.toggle('active')
 
 }
 
