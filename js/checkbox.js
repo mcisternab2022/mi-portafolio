@@ -23,7 +23,6 @@ var ascensor = document.getElementById('ascensor')
 var link = document.getElementById('link')
 var icono = document.getElementById('icono')
 var profile = document.getElementById('profile')
-var typedcursor = document.getElementById('profesion')
 
 toggle.onclick = function(){
     toggle.classList.toggle('active');
@@ -52,7 +51,6 @@ toggle.onclick = function(){
     link.classList.toggle('active');
     icono.classList.toggle('active');
     profile.classList.toggle('active');
-    typedcursor.classList.toggle('active')
 
 }
 
