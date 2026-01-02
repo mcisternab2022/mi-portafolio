@@ -363,6 +363,16 @@ h6 {
   position: relative;
 }
 
+body::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    background-image: 
+        url("../img/principio.png"),
+        url("../img/noche.png");
+}
 
 @media screen and (max-width: 1350px) {
   #hero {
