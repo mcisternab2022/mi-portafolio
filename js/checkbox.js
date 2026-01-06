@@ -45,7 +45,7 @@ toggle.onclick = function(){
     social.classList.toggle('active');
     skills.classList.toggle('active');
     portfolio.classList.toggle('active');
-    services.classList.toggle('active');
+    // services.classList.toggle('active');
     contact.classList.toggle('active');
     ascensor.classList.toggle('active');
     link.classList.toggle('active');

@@ -430,9 +430,22 @@ body::after {
   letter-spacing: 1px;
 }
 
+#hero p span.active {
+  color: #eaf616;
+}
+
 #profesion.active {
   color: #eaf616;
   letter-spacing: 1px;
+}
+
+.typed-cursor {
+  color: #05bb0e;
+}
+
+/* Cursor cuando está activo */
+#hero p span.active + .typed-cursor {
+  color: #eaf616;
 }
 
 #hero .social-links {
@@ -623,6 +636,18 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+}
+
+#link.active a {
+  color: #eaf616;
+}
+
+#icono {
+  color: #0d6efd;
+}
+
+#icono.active {
+  color: #eaf616;
 }
 
 /*--------------------------------------------------------------
@@ -1049,6 +1074,22 @@ p#skillsicons img:hover{
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+}
+
+/* Botón proyectos extras */
+.btn-purple {
+    background-color: #8b5cf6; /* morado claro */
+    color: #ffffff;
+    border: none;
+}
+
+.btn-purple:hover {
+    background-color: #7c3aed; /* un poco más oscuro */
+    color: #ffffff;
+}
+
+.btn-purple:focus {
+    box-shadow: 0 0 0 0.25rem rgba(139, 92, 246, 0.5);
 }
 
 /*--------------------------------------------------------------
